@@ -16,6 +16,7 @@ body{
 	height: 60px;
 	background-color: #E54E79;
 	overflow: hidden;
+	z-index: 1;
 }
 #logoId{
 	width: 60px;
@@ -25,7 +26,7 @@ body{
 	padding-top: 6px;
 	background-color: #E54E79;
 }
-ul{
+#navegadorId ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -34,17 +35,17 @@ ul{
 	float: right;
 	padding-right: 10%;
 }
-ul li{
+ #navegadorId ul li{
 	display: inline-block;
 }
-ul li a{
+#navegadorId ul li a{
 	display: inline-block;
 	color: white;
 	text-align: center;
 	padding: 20px;
 	text-decoration: none;
 }
-li a:hover{
+#navegadorId li a:hover{
 	background-color: #E56385;
 	color: #EDE9E2;
 }
@@ -61,6 +62,7 @@ h1, h3{
 	background-attachment: fixed;
 	padding: 350px 0;
 	top: 60px;
+	
 
 }
 #formularioId{
@@ -73,6 +75,7 @@ h1, h3{
 	right: 0;
 	bottom: 50px;
 	box-sizing: border-box;
+	z-index: inherit;
 
 }
 h1, .upper{
@@ -99,4 +102,102 @@ h1, .upper{
     border-bottom: 1px solid #75726C;
     width: 100%;
     padding: 5px 0;
+}
+/***************Play with lyft*******************/
+#playWithId{
+	background-color: #00B2A9;
+	padding: 200px 0;
+	position: relative;
+}
+#playWithId h1{
+	color: #75726C;
+	width: 100%;
+	text-align: center;
+	background-color: #EDE9E2;
+	position: absolute;
+	top: 50px;
+	padding: 30px 0;
+	font-size: 50px;
+}
+#autosId{
+	width: 80%;
+	height: 250px;
+	background-color: #EDE9E2;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.autosClass{
+	display: inline-block;
+	width: 40%;
+	margin: auto;
+	padding: 20px;
+}
+.autosClass i{
+	color: #75726C;
+	font-size: 30px;
+}
+.autosClass input{
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid #75726C;
+    width: 80%;
+    padding: 10px 0;
+}
+.botonStart{
+	display: block;
+	margin-top: 30px;
+	background-color: #00B2A9;
+	color: #EDE9E2;
+	border-radius: 14px;
+	padding: 0 300px;
+}
+.botonStart p{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #EDE9E2;
+	padding: 0;
+	margin: 5px;
+}
+/*****************footer*******************/
+#footer{
+	background-color: #75726C;
+	position: relative;
+	 height: 220px;
+	
+}
+#footer h1, #footer p{
+	color: #EDE9E2;
+}
+#footer ul{
+	list-style: none;
+}
+#footer1{
+	position: absolute;
+	left: 100px;
+}
+#footer2{
+	position: absolute;
+	right: 200px;
+}
+.inc a{
+	color: #EDE9E2;
+	margin: 0;
+	background-color: black;
+}
+.inc{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+	background-color: black;
+	
+	
+}
+.fin1{
+	float: left;	
+}
+.fin2{
+	float: right;
 }
