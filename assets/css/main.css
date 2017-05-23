@@ -1,4 +1,4 @@
-/*
+ /*
 Colors: 
 #E54E79;
 #E56385;
@@ -6,3 +6,97 @@ Colors:
 #75726C;
 #EDE9E2
 */
+body{
+	margin: 0;	
+	font-family: 'Raleway', sans-serif;
+}
+#navegadorId{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: #E54E79;
+	overflow: hidden;
+}
+#logoId{
+	width: 60px;
+	height: auto;
+	float: left;
+	padding-left: 10%;
+	padding-top: 6px;
+	background-color: #E54E79;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: #E54E79;
+	font-family: 'Raleway', sans-serif;
+	float: right;
+	padding-right: 10%;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #E56385;
+	color: #EDE9E2;
+}
+/*********header***********/
+h1, h3{
+	margin: 0;
+	color: #00B2A9;
+}
+#headerId{
+	clear: left;
+	background-image: url("../img/cropped-Lyft-Promo-Codes-car-1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 350px 0;
+	top: 60px;
+
+}
+#formularioId{
+	background-color: #EDE9E2;
+	
+	width: 490px;
+	height: 400px;
+	padding: 40px 40px;
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	box-sizing: border-box;
+
+}
+h1, .upper{
+	text-transform: uppercase;
+}
+ p{
+	color: #75726C;
+}
+#becomeId{
+	background-color: #E56385;
+	color: #EDE9E2;
+	display: block;
+	border-radius: 14px;
+	padding: 0 24px;
+	margin: 20px 0;
+}
+#becomeId p{
+	color: #EDE9E2;
+	font-size: 16px;
+}
+#headerId input{
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid #75726C;
+    width: 100%;
+    padding: 5px 0;
+}
