@@ -10,8 +10,8 @@ botonStart.addEventListener("click", function(){
 
 	var autoMu = document.getElementById("autito");
 
-	var coorX50 = (coorX * 100) / 2;
-	var coorY50 = (coorY * 100) / 2;
+	var coorX50 = (coorX * 80);
+	var coorY50 = (coorY * 80);
 	autoMu.style.left = coorX50 + "px";
 	autoMu.style.top = coorY50 + "px";
 
@@ -28,26 +28,26 @@ function animacion(e){
 		console.log(coorX50 +"X" +coorY50);
 
 		if(e.keyCode == 39){//right
-			if(coorX50 < 450){
-				coorX50 += 50;
+			if(coorX50 < 750){
+				coorX50 += 80;
 				autoMu.style.left = coorX50 + "px";
 			}
 		}
 		if(e.keyCode == 37){//left
 			if(coorX50 > 0){
-				coorX50 -= 50;
+				coorX50 -= 80;
 				autoMu.style.left = coorX50 + "px";
 			}
 		}
 		if(e.keyCode == 38){//up
 			if(coorY50 > 0){
-				coorY50 -= 50;
+				coorY50 -= 80;
 				autoMu.style.top = coorY50 + "px";
 			}
 		}
 		if(e.keyCode == 40){//down
-			if(coorY50 < 250){
-				coorY50 += 50;
+			if(coorY50 < 400){
+				coorY50 += 80;
 				autoMu.style.top = coorY50 + "px";
 			}
 		}
@@ -56,4 +56,20 @@ function animacion(e){
 }
 document.onkeydown = animacion;
 });
+
+function validacionNumero(){
+	var botonNumero = document.getElementById("becomeId");
+
+	botonNumero.addEventListener("click", function(){
+
+		var numero = document.getElementById("signupId").value;
+		if (isNaN(numero)) {
+			alert("No es número");
+		}
+		else{
+			alert("Gracias! Ya estás Inscrito!")
+		}
+	});
+}
+validacionNumero();
 

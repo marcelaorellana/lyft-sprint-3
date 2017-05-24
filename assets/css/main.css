@@ -88,9 +88,13 @@ h1, .upper{
 	background-color: #E56385;
 	color: #EDE9E2;
 	display: block;
-	border-radius: 14px;
+	border-radius: 14px; 
 	padding: 0 24px;
 	margin: 20px 0;
+}
+#becomeId:hover{
+	background-color: #ed6a8c;
+	color: #EDE9E2;
 }
 #becomeId p{
 	color: #EDE9E2;
@@ -103,10 +107,18 @@ h1, .upper{
     width: 100%;
     padding: 5px 0;
 }
+#headerId input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 2;
+}
+#headerId input:focus{
+    outline: none;
+    border-bottom: 2px solid #ed6a8c;
+ }
 /***************Play with lyft*******************/
 #playWithId{
 	background-color: #00B2A9;
-	padding: 200px 0;
+	padding: 90px 0;
 	position: relative;
 }
 #playWithId h1{
@@ -118,21 +130,29 @@ h1, .upper{
 	top: 50px;
 	padding: 30px 0;
 	font-size: 50px;
+	margin-top: 30px;
 }
 #autosId{
-	width: 80%;
-	height: 250px;
+	width: 70%;
+	margin: auto;
+	height: 210px;
 	background-color: #EDE9E2;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
+	margin-top: 170px;
+	padding-top: 20px;
 }
 .autosClass{
 	display: inline-block;
-	width: 40%;
-	margin: auto;
+	width: 35%;
 	padding: 20px;
+	margin-bottom: 30px;
+}
+#auto1{
+	float: left;
+	margin-left: 10%;
+}
+#auto2{
+	float: right;
+	margin-right: 10%;
 }
 .autosClass i{
 	color: #75726C;
@@ -145,13 +165,27 @@ h1, .upper{
     width: 80%;
     padding: 10px 0;
 }
+.autosClass input:focus{
+    outline: none;
+    border-bottom: 2px solid #00B2A9;
+}
+.autosClass input::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 2;
+}
 .botonStart{
 	display: block;
+	width: 90%;
+	margin: auto;
 	margin-top: 30px;
 	background-color: #00B2A9;
 	color: #EDE9E2;
 	border-radius: 14px;
-	padding: 0 300px;
+	padding: 10px 10px;
+}
+.botonStart:hover{
+	background-color: #01c4ba;
+	color: #EDE9E2;
 }
 .botonStart p{
 	font-size: 20px;
@@ -169,18 +203,18 @@ h1, .upper{
 	padding: 20px;
 }
 #cuadroId{
-	width: 500px;
+	width: 800px;
 	margin: auto;
 	background-color: #75726C;
-	height: 300px;
+	height: 480px;
 	position: relative;
 	border: 30px solid #EDE9E2;
 
 }
 #autito{
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	background-image: url("../img/car.png");
 	background-color: #E54E79;
 	background-size: contain;
@@ -189,8 +223,8 @@ h1, .upper{
 	z-index: 1;
 }
 .rosa{
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	background-color: #E54E79;
 	position: absolute;
 }
@@ -204,18 +238,36 @@ h1, .upper{
 }
 #footer h1, #footer p{
 	color: #EDE9E2;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+#footer i{
+	display: block;
+	color: #EDE9E2;
+	font-size: 26px;
 }
 #footer ul{
 	list-style: none;
+	 margin: 0;
+    padding: 0;
+
 }
+#footer a{
+	text-decoration: none;
+}
+
 #footer1{
-	position: absolute;
-	left: 100px;
+	float: left;
+	width: 40%;
+	margin: auto;
+	padding-left: 5%;
 }
 #footer2{
-	position: absolute;
-	right: 200px;
+	width: 40%;
+	margin: auto;
+	float: right;
 }
+
 .inc{
 	width: 100%;
 	position: absolute;
