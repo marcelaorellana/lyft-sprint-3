@@ -1,4 +1,4 @@
- /*
+  /*
 Colors: 
 #E54E79;
 #E56385;
@@ -160,11 +160,30 @@ h1, .upper{
 	padding: 0;
 	margin: 5px;
 }
+.no{
+	display: none;
+}
+#cuadro{
+	width: 500px;
+	margin: auto;
+	background-color: #EDE9E2;
+	height: 300px;
+	position: relative;
+}
+#autito{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-image: url("../img/car.png");
+	background-size: contain;
+	background-repeat:no-repeat;
+	background-position: center;
+}
 /*****************footer*******************/
 #footer{
 	background-color: #75726C;
 	position: relative;
-	 height: 220px;
+	height: 220px;
 	
 }
 #footer h1, #footer p{
