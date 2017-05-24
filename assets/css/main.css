@@ -163,22 +163,38 @@ h1, .upper{
 .no{
 	display: none;
 }
-#cuadro{
+/********Juego***************/
+#juegoId{
+	background-color: #00B2A9;
+	padding: 20px;
+}
+#cuadroId{
 	width: 500px;
 	margin: auto;
-	background-color: #EDE9E2;
+	background-color: #75726C;
 	height: 300px;
 	position: relative;
+	border: 30px solid #EDE9E2;
+
 }
 #autito{
 	position: absolute;
 	width: 50px;
 	height: 50px;
 	background-image: url("../img/car.png");
+	background-color: #E54E79;
 	background-size: contain;
 	background-repeat:no-repeat;
 	background-position: center;
+	z-index: 1;
 }
+.rosa{
+	width: 50px;
+	height: 50px;
+	background-color: #E54E79;
+	position: absolute;
+}
+
 /*****************footer*******************/
 #footer{
 	background-color: #75726C;
@@ -200,23 +216,25 @@ h1, .upper{
 	position: absolute;
 	right: 200px;
 }
-.inc a{
-	color: #EDE9E2;
-	margin: 0;
-	background-color: black;
-}
 .inc{
 	width: 100%;
 	position: absolute;
 	bottom: 0;
 	overflow: hidden;
-	background-color: black;
-	
-	
+	background-color: #6B6862;
+	height: 30px;
 }
+.inc a{
+	color: #EDE9E2;
+	margin: 0;
+	background-color: #6B6862;
+}
+
 .fin1{
 	float: left;	
+	padding-left: 10%;
 }
 .fin2{
 	float: right;
+	padding-right: 10%;
 }
